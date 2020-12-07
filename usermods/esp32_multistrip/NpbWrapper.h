@@ -32,12 +32,68 @@
   #define RLYPIN -1  //pin for relay, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
 #endif
 
+#ifndef RLYPIN2
+  #define RLYPIN2 -1  //pin for relay2, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
+#ifndef RLYPIN3
+  #define RLYPIN3 -1  //pin for rela3, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
+#ifndef RLYPIN4
+  #define RLYPIN4 -1  //pin for relay4, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
+#ifndef RLYPIN5
+  #define RLYPIN5 -1  //pin for relay5, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
+#ifndef RLYPIN6
+  #define RLYPIN6 -1  //pin for relay6, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
+#ifndef RLYPIN7
+  #define RLYPIN7 -1  //pin for relay7, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
+#ifndef RLYPIN8
+  #define RLYPIN8 -1  //pin for relay8, will be set HIGH if LEDs are on (-1 to disable). Also usable for standby leds, triggers,...
+#endif
+
 #ifndef AUXPIN
   #define AUXPIN -1  //debug auxiliary output pin (-1 to disable)
 #endif
 
 #ifndef RLYMDE
   #define RLYMDE 1  //mode for relay, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE2
+  #define RLYMDE2 1  //mode for relay2, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE3
+  #define RLYMDE3 1  //mode for relay3, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE4
+  #define RLYMDE4 1  //mode for relay4, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE5
+  #define RLYMDE5 1  //mode for relay5, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE6
+  #define RLYMDE6 1  //mode for relay6, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE7
+  #define RLYMDE7 1  //mode for relay7, 0: LOW if LEDs are on 1: HIGH if LEDs are on
+#endif
+
+#ifndef RLYMDE8
+  #define RLYMDE8 1  //mode for relay8, 0: LOW if LEDs are on 1: HIGH if LEDs are on
 #endif
 
 #include <NeoPixelBrightnessBus.h>
