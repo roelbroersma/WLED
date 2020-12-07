@@ -88,7 +88,7 @@
   #define RLYMDE6 1  //mode for relay6, 0: LOW if LEDs are on 1: HIGH if LEDs are on
 #endif
 
-#ifndef RLYMDE7 #test
+#ifndef RLYMDE7
   #define RLYMDE7 1  //mode for relay7, 0: LOW if LEDs are on 1: HIGH if LEDs are on
 #endif
 
